@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+}
+
+.jumbotron img{
+    width: 200px;
+    border: 5px solid #333333;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.jumbotron p{
+    font-style: italic;
+    word-spacing: 5px;
+}
+
+.about hr{
+    width: 250px;
+    border-top: 3px solid #222222;
+}
