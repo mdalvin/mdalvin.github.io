@@ -9,7 +9,7 @@ html, body {
 
 .jumbotron img{
     width: 200px;
-    border: 5px solid #333333;
+    border: 3px solid #999999;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
@@ -19,7 +19,48 @@ html, body {
     word-spacing: 5px;
 }
 
+.about{
+    margin-top: 60px;
+}
+
 .about hr{
     width: 250px;
     border-top: 3px solid #222222;
+    margin-bottom: 30px;
 }
+
+.education{
+    margin-top: 60px;
+}
+
+
+.education hr{
+    width: 250px;
+    border-top: 3px solid #222222;
+    margin-bottom: 30px;
+ 
+}
+
+.skill{
+    margin-top: 60px;
+}
+
+.skill hr{
+    width: 250px;
+    border-top: 3px solid #222222;
+    margin-bottom: 30px;
+ 
+}
+
+.accordion{
+    width: auto;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+}
+
+.accordion a {
+    margin-bottom: 20px;
+}
+
+
