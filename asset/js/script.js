@@ -41,10 +41,10 @@ $(window).scroll(function() {
     });
 
 //portfolio
-if( wScroll > $('.portfolio').offset().top - 250){
-    $('.portfolio .thumbnail').each(function(i){
+if( wScroll > $('.gallery').offset().top - 250){
+    $('.gallery .thumbnail').each(function(i){
         setTimeout(function(){
-            $('.portfolio .thumbnail').eq(i).addClass('tmuncul');
+            $('.gallery .thumbnail').eq(i).addClass('tmuncul');
         }, 300 * (i+1));
     });
 

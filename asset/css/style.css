@@ -16,6 +16,8 @@ body{
 }
 
 .jumbotron {
+    height: 600px;
+    padding-top: 300px;
     background-image: url('../img/7.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -24,20 +26,17 @@ body{
 }
 
 .jumbotron img{
-    width: 150px;
-    height: 150px;
+    width: 155px;
+    height: 165px;
     border: 3px solid #999999;
     border-radius: 50%;
     margin-bottom: 1rem;
     margin-top: 4rem;
 }
 
-.jumbotron h1{
-    text-shadow:1px 1px 1px rgb(0,0,0,0.5);
-}
 
 .jumbotron p{
-    font-style: italic;
+    font-size: 50px;
     word-spacing: 5px;
     text-shadow:1px 1px 1px rgb(0,0,0,0.5);
 
@@ -59,17 +58,7 @@ body{
     transition: 1.3s;
 }
 
-.pright{
-    transform: translate(50x, 0);
-}
-
-.pleft.pmuncul, .pright.pmuncul{
-    opacity: 1;
-    transform: translate(0, 0);
-}
-
 .education{
-    margin-top: 60px;
     padding: 20px 20px;
 }
 
@@ -79,11 +68,6 @@ body{
     border-top: 3px solid #222222;
     margin-bottom: 30px;
  
-}
-
-.skill{
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .skill hr{
@@ -108,31 +92,41 @@ body{
     margin-bottom: 20px;
 }
 
-.portfolio{
+.gallery{
     margin-top: 30px;
     padding-top: 20px;
-    margin-bottom: 0;
 }
 
-.portfolio hr{
+.gallery hr{
     width: 250px;
     border-top: 3px solid #222222;
     margin-bottom: 30px;
 }
 
-.portfolio .thumbnail{
+.gallery .thumbnail{
     opacity: 0;
     transform: translate(0, -50px);
     transition: 0.7s;
 }
 
-.portfolio .thumbnail.tmuncul{
+.gallery .thumbnail.tmuncul{
     opacity: 1;
     transform: translate(0, 0);
 }
 
 .img-thumbnail {
     margin-bottom: 20px;
+}
+
+.contact{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.contact hr{
+    width: 250px;
+    border-top: 3px solid #222222;
+    margin-bottom: 30px;
 }
 
 footer {
@@ -148,6 +142,43 @@ footer {
     background: transparent;
 }
 
+/* Style all font awesome icons */
+.fa {
+    margin: 50px 50px;
+    padding: 10px;
+    font-size: 50px;
+    width: 70px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Whatsapp */
+  .fa-whatsapp {
+    background: #4FCE5D;
+    color: white;
+  }
+  /* Google */
+  .fa-google {
+    background: #D44638;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: #8a3ab9;
+    color: white;
+  }
+  /* Skype */
+  .fa-skype {
+    background: #00AFF0;
+    color: white;
+  }
 
 
 
