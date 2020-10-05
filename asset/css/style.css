@@ -52,12 +52,6 @@ body{
     margin-bottom: 20px;
 }
 
-.pleft, .pright{
-    opacity: 0;
-    transform: translate(-50px, 0);
-    transition: 1.3s;
-}
-
 .education{
     padding: 20px 20px;
 }
@@ -120,6 +114,7 @@ body{
 
 .contact{
     margin-top: 20px;
+    margin-bottom: 30px;
     padding-top: 20px;
 }
 
@@ -137,14 +132,10 @@ footer {
     bottom: 0;
 }
 
-.parallax {
-    min-height: 600px;
-    background: transparent;
-}
 
 /* Style all font awesome icons */
 .fa {
-    margin: 50px 50px;
+    margin: 20px 20px;
     padding: 10px;
     font-size: 50px;
     width: 70px;
@@ -169,6 +160,11 @@ footer {
     background: #D44638;
     color: white;
   }
+  /* Telegram */
+  .fa-telegram {
+    background: #0088CC;
+    color: white;
+  }
   /* Instagram */
   .fa-instagram {
     background: #8a3ab9;
@@ -177,6 +173,11 @@ footer {
   /* Skype */
   .fa-skype {
     background: #00AFF0;
+    color: white;
+  }
+  /* Github */
+  .fa-github {
+    background: #211F1F;
     color: white;
   }
 

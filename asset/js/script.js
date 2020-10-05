@@ -15,14 +15,6 @@ $('.page-scroll').on('click', function(e){
     e.preventDefault();
 });
 
-//parallax
-
-//about
-$(window).on('load', function(){
-    $('.pleft').addClass('pmuncul');
-    $('.pright').addClass('pmuncul');
-
-});
 
 //jumbotron
 $(window).scroll(function() {
@@ -40,7 +32,7 @@ $(window).scroll(function() {
         'transform' : 'translate(0px, '+ wScroll/1.2 +'%)'
     });
 
-//portfolio
+//gallery
 if( wScroll > $('.gallery').offset().top - 250){
     $('.gallery .thumbnail').each(function(i){
         setTimeout(function(){
